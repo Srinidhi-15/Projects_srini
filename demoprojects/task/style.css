@@ -1,0 +1,9 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.bg-container{
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/chatbg.png');
+}

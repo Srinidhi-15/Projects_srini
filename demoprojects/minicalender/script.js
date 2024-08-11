@@ -1,0 +1,11 @@
+let date = document.getElementById("date");
+let day = document.getElementById("day");
+let month = document.getElementById("month");
+let year = document.getElementById("year")
+let currentDate = new Date();
+const weeks = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thurshday", "Friday", "Saturday"];
+const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+date.innerHTML = (currentDate.getDate() < 10 ? '0':'') + currentDate.getDate();
+day.innerHTML = weeks[currentDate.getDay()];
+month.innerHTML = months[currentDate.getMonth()];
+year.innerHTML = currentDate.getFullYear();
